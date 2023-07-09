@@ -3,8 +3,7 @@ import { LandingPage } from "./";
 export default function Home() {
   return (
     <>
-      {/* <LandingPage /> */}
-      qwe
+      <LandingPage />
     </>
   )
 }
