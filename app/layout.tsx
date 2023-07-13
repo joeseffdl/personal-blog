@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Zeph's Journey 🦁",
+  title: "Biyahe ni Zeph",
   description: "Zeph's personal blog and practicing environment",
 };
 
