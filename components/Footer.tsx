@@ -17,9 +17,9 @@ const Socials = [
   },
   {
     name: "YouTube",
-    link: "https://www.facebook.com/zenzephy/",
+    link: "https://www.youtube.com/channel/UCzz71vh75tZOhTMIf-Fc4vw",
   },
-];
+]
 
 const Cosmetics = ["Eat", "Code", "Ride", "Sleep"];
 
@@ -42,8 +42,8 @@ export default function Footer() {
                 href={social.link}
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-white duration-150
-                  after:absolute after:translate-y-5 after:left-0 after:bg-[#EEE8A9] after:w-0 after:hover:w-full after:h-0.5 after:duration-150 after:rounded-full after:transition-all after:ease-in-out
+                className="hover:text-white duration-300
+                  after:absolute after:translate-y-5 after:left-0 after:bg-[#EEE8A9] after:w-0 after:hover:w-full after:h-0.5 after:duration-300 after:rounded-full after:transition-all after:ease-in-out
                 "
               >
                 {social.name}

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <LandingPage />
-      <FlowingText message="Welcome to Zeph's Journey 🦁" />
+      <FlowingText message="Kumusta, kapadyak? 👋" />
       <Biyahe />
       <ROI />
     </>
