@@ -29,6 +29,7 @@ specifiers:
   '@radix-ui/react-toggle': ^1.0.3
   '@radix-ui/react-tooltip': ^1.0.6
   '@tanstack/react-query': ^4.29.15
+  '@tanstack/react-table': ^8.9.3
   '@types/node': 20.3.1
   '@types/react': 18.2.14
   '@types/react-dom': 18.2.6
@@ -84,6 +85,7 @@ dependencies:
   '@radix-ui/react-toggle': 1.0.3_hrrtw4it2dqo6rzcqzvl36ff7i
   '@radix-ui/react-tooltip': 1.0.6_hrrtw4it2dqo6rzcqzvl36ff7i
   '@tanstack/react-query': 4.29.15_biqbaboplfbrettd7655fr4n2y
+  '@tanstack/react-table': 8.9.3_biqbaboplfbrettd7655fr4n2y
   '@types/node': 20.3.1
   '@types/react': 18.2.14
   '@types/react-dom': 18.2.6
@@ -1706,6 +1708,23 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       use-sync-external-store: 1.2.0_react@18.2.0
+    dev: false
+
+  /@tanstack/react-table/8.9.3_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-Ng9rdm3JPoSCi6cVZvANsYnF+UoGVRxflMb270tVj0+LjeT/ZtZ9ckxF6oLPLcKesza6VKBqtdF9mQ+vaz24Aw==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      react: '>=16'
+      react-dom: '>=16'
+    dependencies:
+      '@tanstack/table-core': 8.9.3
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /@tanstack/table-core/8.9.3:
+    resolution: {integrity: sha512-NpHZBoHTfqyJk0m/s/+CSuAiwtebhYK90mDuf5eylTvgViNOujiaOaxNDxJkQQAsVvHWZftUGAx1EfO1rkKtLg==}
+    engines: {node: '>=12'}
     dev: false
 
   /@types/node/20.3.1:
