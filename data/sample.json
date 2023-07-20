@@ -1,0 +1,16 @@
+[
+    {
+        "name": "CUC001",
+        "location": "Mall of Asia",
+        "kilometers": 32,
+        "date": "2023-07-01",
+        "amount": 250
+    },
+    {
+        "name": "CUC002",
+        "location": "Mall of Asia",
+        "kilometers": 32,
+        "date": "2023-07-02",
+        "amount": 550
+    }
+]
