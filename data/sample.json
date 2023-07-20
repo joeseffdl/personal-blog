@@ -1,16 +1,65 @@
 [
-    {
-        "name": "CUC001",
-        "location": "Mall of Asia",
-        "kilometers": 32,
-        "date": "2023-07-01",
-        "amount": 250
-    },
-    {
-        "name": "CUC002",
-        "location": "Mall of Asia",
-        "kilometers": 32,
-        "date": "2023-07-02",
-        "amount": 550
-    }
+  {
+    "name": "CUC000",
+    "location": "Diliman",
+    "kilometers": 12,
+    "date": "2023-06-25",
+    "amount": 30
+  },
+  {
+    "name": "CUC001",
+    "location": "Mall of Asia",
+    "kilometers": 34,
+    "date": "2023-06-27",
+    "amount": 100
+  },
+  {
+    "name": "CUC002",
+    "location": "Sta. Maria",
+    "kilometers": 68,
+    "date": "2023-07-02",
+    "amount": 150
+  },
+  {
+    "name": "CUC003",
+    "location": "Riverbanks - Fairview",
+    "kilometers": 72,
+    "date": "2023-07-03",
+    "amount": 200
+  },
+  {
+    "name": "CUC004",
+    "location": "San Andres",
+    "kilometers": 30,
+    "date": "2023-07-06",
+    "amount": 100
+  },
+  {
+    "name": "CUC005",
+    "location": "Wawa Dam",
+    "kilometers": 70,
+    "date": "2023-07-11",
+    "amount": 200
+  },
+  {
+    "name": "CUC006",
+    "location": "PUP CEA - Cubao",
+    "kilometers": 24,
+    "date": "2023-07-15",
+    "amount": 100
+  },
+  {
+    "name": "CUC007",
+    "location": "BGC",
+    "kilometers": 56,
+    "date": "2023-07-17",
+    "amount": 200
+  },
+  {
+    "name": "CUC008",
+    "location": "Cubao",
+    "kilometers": 20,
+    "date": "2023-07-18",
+    "amount": 70
+  }
 ]
