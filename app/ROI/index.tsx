@@ -1,5 +1,6 @@
 import sampleData from "@/data/sample.json";
 import ROITable from "./ROITable";
+import TableDescription from "./TableDescription";
 
 export default function ROI() {
   const individualAmounts = sampleData.map((data) => data.amount)
@@ -7,13 +8,8 @@ export default function ROI() {
 
   return (
     <main className="flex h-screen items-center justify-between p-24 bg-[#E8FCFF]">
-      <div className="w-full">
-        <ROITable />
-        
-      </div>
-      <div className="w-full flex items-center justify-center">
-        {((totalSum / 16250) * 100).toFixed(2)}%
-      </div>
+      <ROITable />
+      <TableDescription totalSum={totalSum} />
     </main>
   )
 }
