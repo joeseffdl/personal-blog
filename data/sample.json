@@ -61,5 +61,19 @@
     "kilometers": 20,
     "date": "2023-07-18",
     "amount": 70
+  },
+  {
+    "name": "CUC009",
+    "location": "SM Grand Central",
+    "kilometers": 5,
+    "date": "2023-07-18",
+    "amount": 40
+  },
+  {
+    "name": "CUC010",
+    "location": "Tagaytay",
+    "kilometers": 70,
+    "date": "2023-07-18",
+    "amount": 300
   }
 ]
