@@ -72,8 +72,15 @@
   {
     "name": "CUC010",
     "location": "Tagaytay",
-    "kilometers": 70,
-    "date": "2023-07-18",
+    "kilometers": 150,
+    "date": "2023-07-24",
     "amount": 300
+  },
+  {
+    "name": "CUC011",
+    "location": "Cubao",
+    "kilometers": 20,
+    "date": "2023-07-25",
+    "amount": 70
   }
 ]
