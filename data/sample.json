@@ -108,14 +108,14 @@
     "name": "CUC015",
     "location": "Quiapo",
     "kilometers": 20,
-    "date": "2023-08-09",
+    "date": "2023-08-08",
     "amount": 60
   },
   {
     "name": "CUC016",
     "location": "Cubao",
     "kilometers": 20,
-    "date": "2023-08-10",
+    "date": "2023-08-09",
     "amount": 70
   }
 ]
