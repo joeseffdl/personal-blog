@@ -117,5 +117,12 @@
     "kilometers": 20,
     "date": "2023-08-09",
     "amount": 70
+  },
+  {
+    "name": "CUC017",
+    "location": "SM Grand Central",
+    "kilometers": 5,
+    "date": "2023-08-13",
+    "amount": 40
   }
 ]
