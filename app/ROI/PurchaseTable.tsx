@@ -7,7 +7,6 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
-import sampleData from "@/data/sample.json"
 
 export default function PurchaseTable() {
   return (
