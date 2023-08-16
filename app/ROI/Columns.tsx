@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import { ColumnDef } from "@tanstack/react-table"
-import { ArrowUpDown, MoreHorizontal } from "lucide-react"
+import { ColumnDef } from "@tanstack/react-table";
+import { ArrowUpDown, MoreHorizontal } from "lucide-react";
 
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -11,15 +11,15 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/dropdown-menu";
 
 export type Transaction = {
-  name: string
-  location: string
-  kilometers: number
-  date: Date | string
-  amount: number
-}
+  name: string;
+  location: string;
+  kilometers: number;
+  date: Date | string;
+  amount: number;
+};
 
 export const columns: ColumnDef<Transaction>[] = [
   {
@@ -41,15 +41,15 @@ export const columns: ColumnDef<Transaction>[] = [
           Kilometers
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
-      )
+      );
     },
     cell: ({ row }) => {
-      const kilometers = parseFloat(row.getValue("kilometers"))
+      const kilometers = parseFloat(row.getValue("kilometers"));
       const formatted = new Intl.NumberFormat("en-US", {
         style: "decimal",
-      }).format(kilometers)
+      }).format(kilometers);
 
-      return <div className="text-center">{formatted}</div>
+      return <div className="text-center">{formatted}</div>;
     },
   },
   {
@@ -60,19 +60,19 @@ export const columns: ColumnDef<Transaction>[] = [
     accessorKey: "amount",
     header: () => <div>Amount</div>,
     cell: ({ row }) => {
-      const amount = parseFloat(row.getValue("amount"))
+      const amount = parseFloat(row.getValue("amount"));
       const formatted = new Intl.NumberFormat("en-US", {
         style: "currency",
         currency: "PHP",
-      }).format(amount)
+      }).format(amount);
 
-      return <div className="text-center">{formatted}</div>
+      return <div className="text-center">{formatted}</div>;
     },
   },
   {
     id: "actions",
     cell: ({ row }) => {
-      const transaction = row.original
+      const transaction = row.original;
 
       return (
         <DropdownMenu>
@@ -94,7 +94,7 @@ export const columns: ColumnDef<Transaction>[] = [
             <DropdownMenuItem>View transaction details</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
-      )
+      );
     },
   },
-]
+];
