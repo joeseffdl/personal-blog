@@ -1,10 +1,10 @@
 type SampleDataProps = {
-  name: string
-  location: string
-  kilometers: number
-  date: Date | string
-  amount: number
-}
+  name: string;
+  location: string;
+  kilometers: number;
+  date: Date | string;
+  amount: number;
+};
 
 export const sampleData: SampleDataProps[] = [
   {
@@ -139,5 +139,12 @@ export const sampleData: SampleDataProps[] = [
     kilometers: 44,
     date: "2023-08-15",
     amount: 200,
+  },
+  {
+    name: "CUC019",
+    location: "PUP CEA",
+    kilometers: 12,
+    date: "2023-08-17",
+    amount: 100
   }
-]
+];

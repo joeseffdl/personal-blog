@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 export default function LandingPage() {
   return (
-    <main className="flex h-screen flex-col items-center justify-center p-24 relative overflow-hidden">
+    <main className="flex h-screen flex-col items-center justify-center px-40 relative overflow-hidden">
       <motion.div
         initial={{ opacity: 0, top: 800, skewX: 0 }}
         animate={{ opacity: 1, top: 0, skew: -12 }}
@@ -60,5 +60,5 @@ export default function LandingPage() {
         </div>
       </div>
     </main>
-  )
+  );
 }

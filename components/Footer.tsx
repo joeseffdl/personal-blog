@@ -25,7 +25,7 @@ const Cosmetics = ["Eat", "Code", "Ride", "Sleep"];
 
 export default function Footer() {
   return (
-    <footer className="flex h-40 px-24 py-10 bg-gradient-to-r from-[#4B9FEB] via-[#8F6AC0] to-[#A92970]">
+    <footer className="flex h-40 px-40 py-10 bg-gradient-to-r from-[#4B9FEB] via-[#8F6AC0] to-[#A92970]">
       <div className="w-3/5 font-semibold">
         <ul className=" flex gap-5">
           {Cosmetics.map((cosmetic) => (

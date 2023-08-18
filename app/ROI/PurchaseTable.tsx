@@ -6,7 +6,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"
+} from "@/components/ui/table";
 
 export default function PurchaseTable() {
   return (
@@ -27,5 +27,5 @@ export default function PurchaseTable() {
         </TableRow>
       </TableBody>
     </Table>
-  )
+  );
 }
