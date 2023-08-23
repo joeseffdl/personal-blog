@@ -133,6 +133,6 @@ export const images = [
       src: "/images/Tagaytay/G.JPG",
       alt: "Tagaytay Image 7",
       description: "Tagaytay",
-    },
+      },
   ],
 ]
