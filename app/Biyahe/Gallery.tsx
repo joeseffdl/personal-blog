@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { images } from "./ImageCollection"
+import { BiChevronRightCircle, BiChevronLeftCircle } from 'react-icons/bi'
 
 export default function Gallery() {
   return (
