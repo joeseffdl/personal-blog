@@ -167,5 +167,12 @@ export const sampleData: SampleDataProps[] = [
     kilometers: 36,
     date: "2023-08-26",
     amount: 150,
+  },
+  {
+    name: "CUC023",
+    location: "Bitbit River, Norzagaray",
+    kilometers: 110,
+    date: "2023-08-27",
+    amount: 300,
   }
 ];
