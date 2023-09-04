@@ -145,7 +145,7 @@ export const sampleData: SampleDataProps[] = [
     location: "PUP CEA",
     kilometers: 12,
     date: "2023-08-17",
-    amount: 100
+    amount: 100,
   },
   {
     name: "CUC020",
@@ -184,9 +184,23 @@ export const sampleData: SampleDataProps[] = [
   },
   {
     name: "CUC025",
-    location: "Meycauayan, Bulacan",
-    kilometers: 28,
+    location: "Pedro Gil",
+    kilometers: 24,
     date: "2023-09-02",
-    amount: 150,
-  }
-];
+    amount: 100,
+  },
+  {
+    name: "CUC026",
+    location: "Green Hills",
+    kilometers: 24,
+    date: "2023-09-02",
+    amount: 100,
+  },
+  // {
+  //   name: "CUC027",
+  //   location: "Meycauayan, Bulacan",
+  //   kilometers: 28,
+  //   date: "2023-09-03",
+  //   amount: 150,
+  // },
+]
