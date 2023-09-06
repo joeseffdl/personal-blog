@@ -196,11 +196,18 @@ export const sampleData: SampleDataProps[] = [
     date: "2023-09-02",
     amount: 100,
   },
-  // {
-  //   name: "CUC027",
-  //   location: "Meycauayan, Bulacan",
-  //   kilometers: 28,
-  //   date: "2023-09-03",
-  //   amount: 150,
-  // },
+  {
+    name: "CUC027",
+    location: "Mall of Asia",
+    kilometers: 34,
+    date: "2023-09-05",
+    amount: 150,
+  },
+  {
+    name: "CUC028",
+    location: "Taft-Cubao",
+    kilometers: 30,
+    date: "2023-09-06",
+    amount: 200,
+  },
 ]
