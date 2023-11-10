@@ -454,5 +454,12 @@ export const sampleData: SampleDataProps[] = [
     kilometers: 34,
     date: "2023-11-08",
     amount: 150,
+  },
+  {
+    name: "CUC064",
+    location: "Burger King, Kamias Road corner Kalayaan Ave",
+    kilometers: 18,
+    date: "2023-11-11",
+    amount: 50,
   }
 ]
