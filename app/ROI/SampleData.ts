@@ -520,6 +520,13 @@ export const sampleData: SampleDataProps[] = [
   },
   {
     name: "CUC073",
+    location: "SM Grand Central",
+    kilometers: 5,
+    date: "2023-11-30",
+    amount: 40,
+  },
+  {
+    name: "CUC074",
     location: "Salt and Light Studios",
     kilometers: 18,
     date: "2023-12-02",
