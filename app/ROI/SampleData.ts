@@ -538,5 +538,5 @@ export const sampleData: SampleDataProps[] = [
     kilometers: 10,
     date: "2023-12-03",
     amount: 50,
-  }
+  },
 ]
