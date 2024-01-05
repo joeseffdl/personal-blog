@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Socials = [
   {
     name: "Facebook",
@@ -19,7 +21,7 @@ const Socials = [
     name: "YouTube",
     link: "https://www.youtube.com/channel/UCzz71vh75tZOhTMIf-Fc4vw",
   },
-]
+];
 
 const Cosmetics = ["Eat", "Code", "Ride", "Sleep"];
 
@@ -38,7 +40,7 @@ export default function Footer() {
         <ul className="flex gap-5 h-fit">
           {Socials.map((social) => (
             <li key={social.name} className="relative">
-              <a
+              <Link
                 href={social.link}
                 target="_blank"
                 rel="noreferrer"
@@ -47,11 +49,11 @@ export default function Footer() {
                 "
               >
                 {social.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
       </div>
     </footer>
-  )
+  );
 }
