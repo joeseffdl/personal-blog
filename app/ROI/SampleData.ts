@@ -75,7 +75,7 @@ export const sampleData: SampleDataProps[] = [
     location: "SM Grand Central",
     kilometers: 5,
     date: "2023-07-18",
-    amount: 40,
+    amount: 80,
   },
   {
     name: "CUC010",
@@ -96,7 +96,7 @@ export const sampleData: SampleDataProps[] = [
     location: "SM Grand Central",
     kilometers: 5,
     date: "2023-07-27",
-    amount: 40,
+    amount: 80,
   },
   {
     name: "CUC013",
@@ -110,7 +110,7 @@ export const sampleData: SampleDataProps[] = [
     location: "Grace Park",
     kilometers: 5,
     date: "2023-08-05",
-    amount: 40,
+    amount: 80,
   },
   {
     name: "CUC015",
@@ -131,7 +131,7 @@ export const sampleData: SampleDataProps[] = [
     location: "SM Grand Central",
     kilometers: 5,
     date: "2023-08-13",
-    amount: 40,
+    amount: 80,
   },
   {
     name: "CUC018",
@@ -243,7 +243,7 @@ export const sampleData: SampleDataProps[] = [
     location: "Grace Park",
     kilometers: 5,
     date: "2023-09-17",
-    amount: 40,
+    amount: 80,
   },
   {
     name: "CUC034",
@@ -271,7 +271,7 @@ export const sampleData: SampleDataProps[] = [
     location: "SM Grand Central",
     kilometers: 5,
     date: "2023-09-23",
-    amount: 40,
+    amount: 80,
   },
   {
     name: "CUC038",
@@ -285,10 +285,10 @@ export const sampleData: SampleDataProps[] = [
     location: "SM Grand Central",
     kilometers: 5,
     date: "2023-09-29",
-    amount: 40,
+    amount: 80,
   },
   {
-    name: "CUC040",
+    name: "CUC080",
     location: "Cubao",
     kilometers: 20,
     date: "2023-09-30",
@@ -299,7 +299,7 @@ export const sampleData: SampleDataProps[] = [
     location: "SM Grand Central",
     kilometers: 5,
     date: "2023-10-02",
-    amount: 40,
+    amount: 80,
   },
   {
     name: "CUC042",
@@ -383,7 +383,7 @@ export const sampleData: SampleDataProps[] = [
     location: "SM Grand Central",
     kilometers: 5,
     date: "2023-10-22",
-    amount: 40,
+    amount: 80,
   },
   {
     name: "CUC054",
@@ -467,7 +467,7 @@ export const sampleData: SampleDataProps[] = [
     location: "SM Grand Central",
     kilometers: 5,
     date: "2023-11-12",
-    amount: 40,
+    amount: 80,
   },
   {
     name: "CUC066",
@@ -516,14 +516,14 @@ export const sampleData: SampleDataProps[] = [
     location: "SM Grand Central",
     kilometers: 5,
     date: "2023-11-26",
-    amount: 40,
+    amount: 80,
   },
   {
     name: "CUC073",
     location: "SM Grand Central",
     kilometers: 5,
     date: "2023-11-30",
-    amount: 40,
+    amount: 80,
   },
   {
     name: "CUC074",
@@ -551,7 +551,7 @@ export const sampleData: SampleDataProps[] = [
     location: "SM Grand Central",
     kilometers: 5,
     date: "2023-12-14",
-    amount: 40,
+    amount: 80,
   },
   {
     name: "CUC078",
@@ -599,7 +599,28 @@ export const sampleData: SampleDataProps[] = [
     name: "CUC084",
     location: "The Feast Trinoma",
     kilometers: 10,
-    date: "2023-12-03",
+    date: "2023-1-07",
     amount: 50,
   },
+  {
+    name: "CUC085",
+    location: "SM Grand Central",
+    kilometers: 5,
+    date: "2023-01-09",
+    amount: 80,
+  },
+  {
+    name: "CUC086",
+    location: "UP Diliman",
+    kilometers: 20,
+    date: "2024-01-10",
+    amount: 100,
+  },
+  {
+    name: "CUC087",
+    location: "Mall of Asia",
+    kilometers: 34,
+    date: "2024-01-12",
+    amount: 150,
+  }
 ]
