@@ -622,5 +622,19 @@ export const sampleData: SampleDataProps[] = [
     kilometers: 34,
     date: "2024-01-12",
     amount: 150,
+  },
+  {
+    name: "CUC088",
+    location: "Hinulugang Taktak, Antipolo",
+    kilometers: 60,
+    date: "2024-01-13",
+    amount: 300,
+  },
+  {
+    name: "CUC089",
+    location: "PUP Main",
+    kilometers: 14,
+    date: "2024-01-16",
+    amount: 100,
   }
 ]
