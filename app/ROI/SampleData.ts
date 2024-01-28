@@ -688,9 +688,16 @@ export const sampleData: SampleDataProps[] = [
   },
   {
     name: "CUC097",
-    location: "Antipolo Cathedral",
+    location: "Hinulugang Taktak, Antipolo",
     kilometers: 60,
     date: "2024-01-27",
     amount: 300,
+  },
+  {
+    name: "CUC098",
+    location: "Salt and Light Studios",
+    kilometers: 18,
+    date: "2024-01-27",
+    amount: 50,
   },
 ]
