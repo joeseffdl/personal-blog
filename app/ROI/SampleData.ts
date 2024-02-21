@@ -781,7 +781,7 @@ export const sampleData: SampleDataProps[] = [
     name: "CUC110",
     location: "Santi's Farmhouse, Windmill Farm, Pililla, 1910 Rizal",
     kilometers: 140,
-    date: "2023-02-20",
+    date: "2023-02-19",
     amount: 300
   },
 ]
