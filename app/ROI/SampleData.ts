@@ -1,10 +1,10 @@
 type SampleDataProps = {
-  name: string;
-  location: string;
-  kilometers: number;
-  date: Date | string;
-  amount: number;
-};
+  name: string
+  location: string
+  kilometers: number
+  date: Date | string
+  amount: number
+}
 
 export const sampleData: SampleDataProps[] = [
   {
@@ -54,7 +54,7 @@ export const sampleData: SampleDataProps[] = [
     location: "PUP CEA - Cubao",
     kilometers: 24,
     date: "2023-07-15",
-    amount: 100,
+    amount: 110,
   },
   {
     name: "CUC007",
@@ -68,7 +68,7 @@ export const sampleData: SampleDataProps[] = [
     location: "Cubao",
     kilometers: 20,
     date: "2023-07-18",
-    amount: 70,
+    amount: 80,
   },
   {
     name: "CUC009",
@@ -89,7 +89,7 @@ export const sampleData: SampleDataProps[] = [
     location: "Cubao",
     kilometers: 20,
     date: "2023-07-25",
-    amount: 70,
+    amount: 80,
   },
   {
     name: "CUC012",
@@ -124,7 +124,7 @@ export const sampleData: SampleDataProps[] = [
     location: "Cubao",
     kilometers: 20,
     date: "2023-08-09",
-    amount: 70,
+    amount: 80,
   },
   {
     name: "CUC017",
@@ -180,7 +180,7 @@ export const sampleData: SampleDataProps[] = [
     location: "Cubao",
     kilometers: 20,
     date: "2023-08-30",
-    amount: 70,
+    amount: 80,
   },
   {
     name: "CUC025",
@@ -257,14 +257,14 @@ export const sampleData: SampleDataProps[] = [
     location: "PUP CEA - Cubao",
     kilometers: 24,
     date: "2023-09-21",
-    amount: 200,
+    amount: 100,
   },
   {
     name: "CUC036",
     location: "Cubao",
     kilometers: 20,
     date: "2023-09-22",
-    amount: 70,
+    amount: 80,
   },
   {
     name: "CUC037",
@@ -292,7 +292,7 @@ export const sampleData: SampleDataProps[] = [
     location: "Cubao",
     kilometers: 20,
     date: "2023-09-30",
-    amount: 70,
+    amount: 80,
   },
   {
     name: "CUC041",
@@ -313,7 +313,7 @@ export const sampleData: SampleDataProps[] = [
     location: "Cubao",
     kilometers: 20,
     date: "2023-10-04",
-    amount: 70,
+    amount: 80,
   },
   {
     name: "CUC044",
@@ -327,7 +327,7 @@ export const sampleData: SampleDataProps[] = [
     location: "Cubao",
     kilometers: 20,
     date: "2023-10-05",
-    amount: 70,
+    amount: 80,
   },
   {
     name: "CUC046",
@@ -341,7 +341,7 @@ export const sampleData: SampleDataProps[] = [
     location: "Cubao",
     kilometers: 20,
     date: "2023-10-09",
-    amount: 70,
+    amount: 80,
   },
   {
     name: "CUC048",
@@ -397,7 +397,7 @@ export const sampleData: SampleDataProps[] = [
     location: "Cubao",
     kilometers: 20,
     date: "2023-10-27",
-    amount: 70,
+    amount: 80,
   },
   {
     name: "CUC056",
@@ -411,7 +411,7 @@ export const sampleData: SampleDataProps[] = [
     location: "Cubao",
     kilometers: 20,
     date: "2023-10-29",
-    amount: 70,
+    amount: 80,
   },
   {
     name: "CUC058",
@@ -502,7 +502,7 @@ export const sampleData: SampleDataProps[] = [
     location: "Cubao",
     kilometers: 20,
     date: "2023-11-23",
-    amount: 70,
+    amount: 80,
   },
   {
     name: "CUC071",
@@ -704,7 +704,7 @@ export const sampleData: SampleDataProps[] = [
     name: "CUC099",
     location: "The Feast Trinoma",
     kilometers: 10,
-    date: "2023-1-28",
+    date: "2024-01-28",
     amount: 50,
   },
   {
@@ -740,14 +740,14 @@ export const sampleData: SampleDataProps[] = [
     location: "PUP CEA - Cubao",
     kilometers: 24,
     date: "2024-02-07",
-    amount: 100,
+    amount: 110,
   },
   {
     name: "CUC105",
     location: "PUP CEA - Cubao",
     kilometers: 24,
     date: "2024-02-08",
-    amount: 100,
+    amount: 110,
   },
   {
     name: "CUC106",
@@ -767,21 +767,21 @@ export const sampleData: SampleDataProps[] = [
     name: "CUC0108",
     location: "Salt and Light Studios",
     kilometers: 18,
-    date: "2023-02-17",
+    date: "2024-02-17",
     amount: 50,
   },
   {
     name: "CUC109",
     location: "The Feast Trinoma",
     kilometers: 10,
-    date: "2023-02-18",
+    date: "2024-02-18",
     amount: 50,
   },
   {
     name: "CUC110",
     location: "Santi's Farmhouse, Windmill Farm, Pililla, 1910 Rizal",
     kilometers: 140,
-    date: "2023-02-19",
+    date: "2024-02-19",
     amount: 300,
   },
   {
@@ -795,7 +795,21 @@ export const sampleData: SampleDataProps[] = [
     name: "CUC0112",
     location: "Salt and Light Studios",
     kilometers: 18,
-    date: "2023-02-22",
+    date: "2024-02-22",
     amount: 50,
+  },
+  {
+    name: "CUC113",
+    location: "SM Grand Central",
+    date: "2024-02-23",
+    kilometers: 5,
+    amount: 80,
+  },
+  {
+    name: "CUC114",
+    location: "Cubao",
+    kilometers: 20,
+    date: "2024-11-23",
+    amount: 80,
   },
 ]
