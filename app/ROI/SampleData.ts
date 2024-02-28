@@ -812,4 +812,11 @@ export const sampleData: SampleDataProps[] = [
     date: "2024-11-23",
     amount: 80,
   },
+  {
+    name: "CUC115",
+    location: "SM Grand Central",
+    date: "2024-02-28",
+    kilometers: 5,
+    amount: 80,
+  },
 ]
