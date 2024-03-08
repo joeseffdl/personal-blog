@@ -835,9 +835,16 @@ export const sampleData: SampleDataProps[] = [
   },
   {
     name: "CUC118",
+    location: "Sugartowne, Quezon City",
+    kilometers: 31,
+    date: "2024-03-07",
+    amount: 150,
+  },
+  {
+    name: "CUC0119",
     location: "Salt and Light Studios",
     kilometers: 18,
-    date: "2024-03-07",
+    date: "2024-03-08",
     amount: 50,
   },
   // {
