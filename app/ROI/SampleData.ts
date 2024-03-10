@@ -847,11 +847,11 @@ export const sampleData: SampleDataProps[] = [
     date: "2024-03-08",
     amount: 50,
   },
-  // {
-  //   name: "CUC119",
-  //   location: "Adjourn, Novaliches",
-  //   kilometers: 30,
-  //   date: "2024-03-09",
-  //   amount: 150,
-  // }
+  {
+    name: "CUC119",
+    location: "A1, Novaliches - Salt and Light",
+    kilometers: 40,
+    date: "2024-03-09",
+    amount: 150,
+  }
 ]
