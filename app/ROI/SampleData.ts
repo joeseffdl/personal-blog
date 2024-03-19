@@ -764,7 +764,7 @@ export const sampleData: SampleDataProps[] = [
     amount: 80,
   },
   {
-    name: "CUC0108",
+    name: "CUC108",
     location: "Salt and Light Studios",
     kilometers: 18,
     date: "2024-02-17",
@@ -873,6 +873,13 @@ export const sampleData: SampleDataProps[] = [
     location: "Salt and Light Studios",
     kilometers: 18,
     date: "2024-03-16",
+    amount: 50,
+  },
+  {
+    name: "CUC124",
+    location: "The Feast Trinoma",
+    kilometers: 10,
+    date: "2024-03-17",
     amount: 50,
   },
 ]
