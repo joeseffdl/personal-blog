@@ -882,4 +882,25 @@ export const sampleData: SampleDataProps[] = [
     date: "2024-03-17",
     amount: 50,
   },
+  {
+    name: "CUC125",
+    location: "San Miguel Corp, Pasig - Salt and Light Studios",
+    kilometers: 60,
+    date: "2024-03-20",
+    amount: 250,
+  },
+  // {
+  //   name: "CUC126",
+  //   location: "Salt and Light Studios",
+  //   kilometers: 18,
+  //   date: "2024-03-21",
+  //   amount: 50,
+  // },
+  // {
+  //   name: "CUC127",
+  //   location: "Adjourn, Novaliches",
+  //   kilometers: 34,
+  //   date: "2024-03-22",
+  //   amount: 150,
+  // },
 ]
