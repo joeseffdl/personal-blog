@@ -889,18 +889,18 @@ export const sampleData: SampleDataProps[] = [
     date: "2024-03-20",
     amount: 250,
   },
+  {
+    name: "CUC126",
+    location: "Salt and Light Studios",
+    kilometers: 18,
+    date: "2024-03-22",
+    amount: 50,
+  },
   // {
-  //   name: "CUC126",
-  //   location: "Salt and Light Studios",
-  //   kilometers: 18,
-  //   date: "2024-03-21",
-  //   amount: 50,
-  // },
-  // {
-  //   name: "CUC127",
+  //   name: "CUC128",
   //   location: "Adjourn, Novaliches",
   //   kilometers: 34,
-  //   date: "2024-03-22",
+  //   date: "2024-03-24",
   //   amount: 150,
   // },
 ]
