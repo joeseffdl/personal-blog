@@ -896,6 +896,13 @@ export const sampleData: SampleDataProps[] = [
     date: "2024-03-22",
     amount: 50,
   },
+  {
+    name: "CUC127",
+    location: "Sierra Madre Loop",
+    kilometers: 140,
+    date: "2024-03-23",
+    amount: 300,
+  },
   // {
   //   name: "CUC128",
   //   location: "Adjourn, Novaliches",
